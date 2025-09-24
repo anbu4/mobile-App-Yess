@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 400;
+}
+:root{
+    --main_color-red:#ff261c;
+    --main_bg:#f0f0f0;
+}
+.max-width{
+    display: flex;
+    flex-direction: column;
+    margin: 0 7px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--main_bg);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: var(--main_color-red);
+    border-radius: 0px 0px 15px 15px;
+    padding: 8px 20px;
+    gap: 10px;
+}
+.navbar_icon{
+    height: 50px;
+}
+.navbar_serach{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    padding: 7px 10px;
+    gap: 10px;
+}
+.navbar_serach img{
+    height: 30px;
+    width: 30px;
+}
+.navbar_input{
+    color: black;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    text-align: center;
+}
+.banner{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.banner img{
+    object-fit: contain;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+    background: white;
+}
+.content h1{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    padding: 20px;
+}
+.content_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.content_links a{
+    font-size: 13.5px;
+    font-weight: 400;
+    padding: 7px 10px;
+    background: var(--main_bg);
+    border-radius: 20px;
+    color: rgb(29, 29, 29);
+}
+.content_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-top: 25px;
+}
+.con-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    gap: 25px;
+    background: var(--main_bg);
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.con-item img{
+    width: 90px;
+    height: 90px;
+}
+.con-item_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.con-item_title p{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.con-item_title ul{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(29, 29, 29);
+}
+.con-item_prom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.con-item_prom p{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.con-reklama{
+    width: 97%;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.con-reklama img{
+    width: 100%;
+    object-fit: cover;
+}
+/* Login */
+.login_logo{
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 25px;
+}
+.login_input-text{
+    font-size: 18px;
+    text-align: center;
+}
+.login_input{
+    max-width: 400px;
+    width: 100%;
+    margin: 10px auto;
+    border: 3px solid var(--main_color-red);
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 15px;
+    outline: none;
+}
+.login_register-btn,
+.login_login-btn{
+    font-size: 25px;
+    padding: 15px 45px;
+    color: white;
+    background: var(--main_color-red);
+    border-radius: 25px;
+    width: min-content;
+    margin: 0 auto;
+}
+.login_register-btn{
+    margin: 20px auto;
+    text-align: center;
+}
+.login_google,
+.login_telegram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border: 3px solid var(--main_color-red);
+    border-radius: 25px;
+    padding: 10px 15px;
+    min-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: min-content;
+}
+.login_google img,
+.login_telegram img{
+    width: 35px;
+    height: 35px;
+}
+
