@@ -65,6 +65,7 @@ function cardPromCreate(){
 
     });   
 }
+console.log(window.location.pathname);
 if(window.location.pathname == 'https://anbu4.github.io/mobile-App-Yess/main.html'){
     cardMainCreate()
 }else if(window.location.pathname == 'https://anbu4.github.io/mobile-App-Yess/promokod.html'){
