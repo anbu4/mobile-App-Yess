@@ -1,4 +1,4 @@
-import baza from 'https://anbu4.github.io/mobile-App-Yess/baza.js';
+import baza from './baza.js';
 
 const contentItem = document.querySelector('.content_items')
 const btnUp = document.querySelector('.btn_up')
