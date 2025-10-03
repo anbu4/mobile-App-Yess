@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 7px;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     background: var(--main_bg);
 }
@@ -66,9 +66,10 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
+    background: var(--main_color-red);
 }
 .banner img{
-    object-fit: contain;
+    object-fit: cover;
 }
 .content{
     display: flex;
@@ -119,6 +120,7 @@
     background: var(--main_bg);
     padding: 10px 15px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .con-item img{
     width: 90px;
@@ -148,6 +150,12 @@
     background: white;
     border-radius: 20px;
     padding: 10px 20px;
+    gap: 5px;
+}
+.con-item_prom img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }
 .con-item_prom p{
     font-size: 20px;
@@ -167,57 +175,25 @@
     width: 100%;
     object-fit: cover;
 }
-/* Login */
-.login_logo{
-    width: 400px;
-    margin: 50px auto;
-    border-radius: 25px;
-}
-.login_input-text{
-    font-size: 18px;
-    text-align: center;
-}
-.login_input{
-    max-width: 400px;
-    width: 100%;
-    margin: 10px auto;
-    border: 3px solid var(--main_color-red);
-    font-size: 25px;
-    border-radius: 20px;
-    padding: 15px;
-    outline: none;
-}
-.login_register-btn,
-.login_login-btn{
-    font-size: 25px;
-    padding: 15px 45px;
-    color: white;
-    background: var(--main_color-red);
-    border-radius: 25px;
-    width: min-content;
-    margin: 0 auto;
-}
-.login_register-btn{
-    margin: 20px auto;
-    text-align: center;
-}
-.login_google,
-.login_telegram{
+/* btn_up */
+.btn_up{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
-    border: 3px solid var(--main_color-red);
-    border-radius: 25px;
-    padding: 10px 15px;
-    min-width: 320px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-    width: min-content;
-}
-.login_google img,
-.login_telegram img{
     width: 35px;
     height: 35px;
+    overflow: hidden;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all 1s;
+    margin-bottom: -100px;
 }
+.btn_up img{
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
 
