@@ -47,9 +47,9 @@ function cardPromCreate(){
             });   
         }
         // /mobile-App-Yess/
-        if(window.location.pathname == '/main.html'){
+        if(window.location.pathname == '/mobile-App-Yess/main.html'){
             cardMainCreate()
-        }else if(window.location.pathname == '/promokod.html'){
+        }else if(window.location.pathname == '/mobile-App-Yess/promokod.html'){
             cardPromCreate()
 }
 
@@ -74,7 +74,7 @@ input.addEventListener('keydown', (e) => {
     if(e.key == 'Enter'){
         const query = input.value.trim().toLowerCase();
         localStorage.setItem('index',query)
-        window.location.href = '/promokod.html'
+        window.location.href = '/mobile-App-Yess/promokod.html'
     }
 })
 searchBtn.addEventListener('click',function(){
