@@ -46,6 +46,7 @@
 .navbar_serach img{
     height: 30px;
     width: 30px;
+    cursor: pointer;
 }
 .navbar_input{
     color: black;
