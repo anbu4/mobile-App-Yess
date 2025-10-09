@@ -80,5 +80,5 @@ input.addEventListener('keydown', (e) => {
 searchBtn.addEventListener('click',function(){
     const query = input.value.trim().toLowerCase();
     localStorage.setItem('index',query)
-    window.location.href = '/promokod.html'
+    window.location.href = '/mobile-App-Yess/promokod.html'
 })
